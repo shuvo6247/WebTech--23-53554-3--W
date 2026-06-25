@@ -1,0 +1,47 @@
+#parent {position: relative;}
+#child1{position:absolute;
+         left:70px;
+         top:270px;
+         padding:8px 26px 8px 26px;
+         background-color: rgb(123,45,162);
+         color: white;
+         border-radius: 3px;
+
+}
+#child2{position:absolute;
+        left:190px;
+        top:270px;
+        padding:8px 26px 8px 26px;
+        background-color: rgb(228,226,233);
+        color: Black;
+        border-radius: 3px;
+
+}
+fieldset{ 
+    width:400px;
+    max-width:85%;
+    padding:20px;
+    min-width:auto;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+legend{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    padding:8px 11px 8px 11px;
+    background-color:rgb(87,29,138);
+    color: white;
+    border-radius: 5px;
+}
+input { 
+    margin-left: 0; 
+    margin-top: 6px;
+    padding: 5px;  
+}
+.class1{
+    margin-left:20px;
+    display:flex;
+    flex-direction:column;
+    
+}
